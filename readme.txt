@@ -50,6 +50,8 @@ Examples areas of use :
 
 This plugin is almost plug and play! Just activate it and then go to WP Support Plus menu. You will learn automatically.
 
+* create new user with roll "Support Agent" from User->Create New to use Agent facility after activating plugin
+
 == Screenshots ==
 
 1. screenshot-1.jpg
