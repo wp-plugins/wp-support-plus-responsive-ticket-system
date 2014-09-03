@@ -1,0 +1,21 @@
+.settingsGeneralContainer,.settingsCategoriesContainer,.settingsMailContainer,.wait{
+	width: 100%;
+	min-height: 400px;
+}
+.wait{
+	text-align: center;
+	padding-top: 175px;
+}
+.catEdit{
+	cursor: pointer;
+}
+.catDelete{
+	cursor: pointer;
+	margin-left: 5px;
+}
+#createCategoryContainer,#editCategoryContainer{
+	background-color: #eeeeee;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 20px;
+}

@@ -1,0 +1,13 @@
+#wpsp_support_btn{
+	position: fixed;
+}
+@media only screen and (min-width:320px) and (max-width: 699px) {
+	#wpsp_support_btn{
+		width: 25px;
+	}
+}
+@media only screen and (min-width:700px) and (max-width: 900px) {
+	#wpsp_support_btn{
+		width: 40px;
+	}
+}

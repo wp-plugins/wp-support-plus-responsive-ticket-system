@@ -1,0 +1,21 @@
+#frontEndReplyTbl, #frontEndReplyTbl td,#frontEndReplyTbl tr,#frontEndReplyTbl th,#attachFileType,
+.replyUserInfo,.replyUserInfo td,.replyUserInfo th,.replyUserInfo tr
+{
+	border: none;
+}
+#frontEndReplyTbl td{
+	vertical-align: middle;
+}
+#attachFileType{
+	width: 200px;
+}
+@media only screen and (min-width:320px) and (max-width: 450px) {
+	.support_bs .category,.support_bs .priority{
+		display: none;
+	}
+}
+@media only screen and (min-width:451px) and (max-width: 499px) {
+	.support_bs .category{
+		display: none;
+	}
+}
