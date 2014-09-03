@@ -13,6 +13,9 @@ This plugin adds to Wordpress the features of a complete ticket system with 100%
 = Plugin's Demo =
 http://wpsupprtplusdemo.byethost7.com/
 
+= Professional Support =
+http://wpsuportplus.byethost7.com/
+
 Features :
 
 * ticket submission through the admin
