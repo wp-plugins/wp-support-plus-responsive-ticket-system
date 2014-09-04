@@ -4,7 +4,7 @@ Contributors: pradeepmakone
 Tags: ticket,case,system,support,help,helpdesk,ticket system,support system,crm,contact,button,responsive,guest
 Requires at least: 3.0
 Tested up to: 3.9
-Stable tag: 1.1.0
+Stable tag: 1.0.0
 
 == Description ==
 
