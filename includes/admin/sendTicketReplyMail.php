@@ -7,10 +7,10 @@ $ticket = $wpdb->get_row( $sql );
 
 $subject='[Ticket #'.$_POST['ticket_id'].']['.$_POST['reply_ticket_status'].'] '.stripcslashes($ticket->subject);
 $body=preg_replace("/(\r\n|\n|\r)/", '<br>', $_POST['replyBody']);
-$body.='<br><br>'.site_url();
+$body.='<br><br><a href="'.site_url().'">'.site_url().'</a>';
 
 $headers = "MIME-Version: 1.0" . "\r\n";
-$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+$headers .= "Content-type: text/html; charset=iso-8859-1" . "\r\n";
 
 $emailToSend='';
 if($ticket->created_by){
@@ -20,10 +20,11 @@ if($ticket->created_by){
 else {
 	$emailToSend=$ticket->guest_email;
 }
-
-wp_mail($emailToSend,$subject,$body,$headers);
+$to=array();
+$to[]=$emailToSend;
 
 if($emailSettings['admin_reply_ticket']){
-	wp_mail(get_bloginfo('admin_email'),$subject,$body,$headers);
+	$to[]=get_bloginfo('admin_email');
 }
+wp_mail($to,$subject,$body,$headers);
 ?>
