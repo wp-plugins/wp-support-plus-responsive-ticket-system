@@ -120,8 +120,8 @@ $categories = $wpdb->get_results( "SELECT * FROM {$wpdb->prefix}wpsp_catagories"
 					<td style="width: 60px;padding-top: 9px;vertical-align:top;"><img src="<?php echo get_gravatar($user_email,60);?>"></td>
 					<td style="padding-left: 5px;vertical-align:top;">
 						<div class="threadUserName"><?php echo $user_name;?></div>
-						<div style="margin-top: -10px;"><small class="threadUserType"><?php echo $user_email;?></small></div>
-						<div style="margin-top: -10px;"><small class="threadCreateTime"><?php echo $modified;?></small></div>
+						<div><small class="threadUserType"><?php echo $user_email;?></small></div>
+						<div><small class="threadCreateTime"><?php echo $modified;?></small></div>
 					</td>
 				</tr>
 			</table>
