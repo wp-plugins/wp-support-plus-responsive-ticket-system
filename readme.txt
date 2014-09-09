@@ -15,7 +15,7 @@ http://wpsuportplus.byethost7.com/?p=55
 = Plugin's Demo =
 http://wpsupprtplusdemo.byethost7.com/
 
-= Lifetime Support & Updates =
+= Lifetime Support & Updates for $10 only =
 http://wpsuportplus.byethost7.com/
 
 Features :
