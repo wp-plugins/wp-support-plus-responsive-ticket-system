@@ -162,7 +162,9 @@ function setEmailSettings(){
 	var data = {
 		'action': 'setEmailSettings',
 		'admin_new_ticket': admin_new_ticket,
-		'admin_reply_ticket':admin_reply_ticket
+		'admin_reply_ticket':admin_reply_ticket,
+		'default_from_email': jQuery('#txtFromEmail').val(),
+		'default_from_name': jQuery('#txtFromName').val()
 	};
 
 	jQuery.post(display_ticket_data.wpsp_ajax_url, data, function(response) {
