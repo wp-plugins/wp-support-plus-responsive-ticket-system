@@ -69,6 +69,9 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 
 
 == Changelog ==
+= V 2.2 =
+* Bug fix: Quotes in mail Every apostrophe ' is replace by \' in ticket title in mails and ticket list (but not ticket itself)
+
 = V 2.1 =
 http://wpsuportplus.byethost7.com/?p=71
 * Added setting of set email from and from name in support for Jason
