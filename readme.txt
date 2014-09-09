@@ -15,7 +15,7 @@ http://wpsuportplus.byethost7.com/?p=55
 = Plugin's Demo =
 http://wpsupprtplusdemo.byethost7.com/
 
-= Lifetime Support & Updates for $10 only =
+= Lifetime Support & Updates =
 http://wpsuportplus.byethost7.com/
 
 Features :
@@ -69,8 +69,11 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 
 
 == Changelog ==
+= V 2.3 =
+* Minor bug fix
+
 = V 2.2 =
-* Bug fix: Quotes in mail Every apostrophe ' is replace by \' in ticket title in mails and ticket list (but not ticket itself)
+* Bug fix: Quotes in mail Every apostrophe ' is replace by \' in ticket title in mails and ticket list (but not ticket itself) 
 
 = V 2.1 =
 http://wpsuportplus.byethost7.com/?p=71

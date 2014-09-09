@@ -15,7 +15,6 @@ final class WPSupportPlusAdmin {
 	function loadScripts(){
 		wp_enqueue_script( 'jquery' );
 		wp_enqueue_script( 'jquery-ui-core' );
-		wp_enqueue_script('wpce_admin', WCE_PLUGIN_URL . 'asset/js/admin.js');
 		wp_enqueue_style('wpce_admin', WCE_PLUGIN_URL . 'asset/css/admin.css');
 	}
 	
