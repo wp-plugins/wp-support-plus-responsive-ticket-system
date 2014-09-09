@@ -95,4 +95,19 @@ if( get_option( 'wpsp_email_notification_settings' ) === false ) {
 	);
 	update_option('wpsp_email_notification_settings',$emailSettings);
 }
+//default email change in 2.1
+$emailSettings=get_option( 'wpsp_email_notification_settings' );
+if(!isset($emailSettings['default_from_email'])){
+	$from_name = "WordPress";
+	$sitename = strtolower( $_SERVER['SERVER_NAME'] );
+	if ( substr( $sitename, 0, 4 ) == 'www.' ) {
+		$sitename = substr( $sitename, 4 );
+	}
+	$default_from_email = 'wordpress@' . $sitename;
+	
+	$emailSettings['default_from_email']=$default_from_email;
+	$emailSettings['default_from_name']=$from_name;
+	
+	update_option('wpsp_email_notification_settings',$emailSettings);
+}
 ?>

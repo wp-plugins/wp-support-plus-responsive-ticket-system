@@ -11,6 +11,7 @@ $body.='<br><br><a href="'.site_url().'">'.site_url().'</a>';
 
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type: text/html; charset=iso-8859-1" . "\r\n";
+$headers .= 'From: '.$emailSettings['default_from_name'].' <'.$emailSettings['default_from_email'].'>' . "\r\n";
 
 $emailToSend='';
 if($ticket->created_by){
