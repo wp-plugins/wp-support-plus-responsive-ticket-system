@@ -7,6 +7,7 @@ $ticket = $wpdb->get_row( $sql );
 
 $subject='[Ticket #'.$_POST['ticket_id'].']['.$_POST['reply_ticket_status'].'] '.stripcslashes($ticket->subject);
 $body=preg_replace("/(\r\n|\n|\r)/", '<br>', $_POST['replyBody']);
+$body=stripcslashes($body);
 $body.='<br><br><a href="'.site_url().'">'.site_url().'</a>';
 
 $headers = "MIME-Version: 1.0" . "\r\n";
