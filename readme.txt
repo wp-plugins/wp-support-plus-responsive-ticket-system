@@ -9,13 +9,13 @@ Stable tag: 2.0.0
 
 This plugin adds to Wordpress the features of a complete ticket system with 100% responsive and 100% Ajax functionality. This allows users to submit tickets to report problems or get support on whatever you want. Users can set the status, priority and category of each ticket.
 
-= What's New in Version 2.0? =
-http://wpsuportplus.byethost7.com/?p=55
+= What's New in Version 3.0? =
+http://wpsuportplus.byethost7.com/?p=83
 
 = Plugin's Demo =
 http://wpsupprtplusdemo.byethost7.com/
 
-= Lifetime Support & Updates =
+= Sign Up for Membership =
 http://wpsuportplus.byethost7.com/
 
 Features :
@@ -25,10 +25,13 @@ Features :
 * priority, status, category selection for each ticket
 * multiple file attachment for ticket and reply
 * Unlimited Support Agent user roll for ticket reply
-* Supervisor user roll for Ticket & Agent Management(version 2.0)
-* assign tickets to agents(version 2.0)
-* agent based ticket statistics(version 2.0)
-* ticket assignment mail notifications(version 2.0)
+* Supervisor user roll for Ticket & Agent Management(Members Only)
+* assign tickets to agents(Members Only)
+* agent based ticket statistics(Members Only)
+* ticket assignment mail notifications(Members Only)
+* delete ticket(Members Only)
+* change status,category and priority without replying(Members Only)
+* ticket submission captcha
 * Guest ticket submission
 * mail notification upon new ticket submission for admin and originator
 * 100% Responsive Design works with any theme
@@ -69,6 +72,9 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 
 
 == Changelog ==
+= V 3.0 =
+http://wpsuportplus.byethost7.com/?p=83
+
 = V 2.3 =
 * Minor bug fix
 
