@@ -15,7 +15,7 @@ http://wpsuportplus.byethost7.com/?p=83
 = Plugin's Demo =
 http://wpsupprtplusdemo.byethost7.com/
 
-= Sign Up for Membership =
+= Official Site =
 http://wpsuportplus.byethost7.com/
 
 Features :
