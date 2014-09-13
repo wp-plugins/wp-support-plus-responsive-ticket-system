@@ -3,19 +3,19 @@ License: GPL v3
 Tags: ticket,case,system,support,help,helpdesk,ticket system,support system,crm,contact,button,responsive,guest
 Requires at least: 3.0
 Tested up to: 4.0
-Stable tag: 2.0.0
+Stable tag: 3.0.0
 
 == Description ==
 
 This plugin adds to Wordpress the features of a complete ticket system with 100% responsive and 100% Ajax functionality. This allows users to submit tickets to report problems or get support on whatever you want. Users can set the status, priority and category of each ticket.
 
-= What's New in Version 3.0? =
-http://wpsuportplus.byethost7.com/?p=83
+= What's New today? =
+http://wpsuportplus.byethost7.com/?p=111
 
 = Plugin's Demo =
 http://wpsupprtplusdemo.byethost7.com/
 
-= Official Site =
+= Pro Features =
 http://wpsuportplus.byethost7.com/
 
 Features :
@@ -33,6 +33,7 @@ Features :
 * change status,category and priority without replying(Members Only)
 * ticket submission captcha
 * Guest ticket submission
+* Guest ticket submission via Facebook(Members Only)
 * mail notification upon new ticket submission for admin and originator
 * 100% Responsive Design works with any theme
 * 100% Ajax based functionality works 200% faster
@@ -72,6 +73,10 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 
 
 == Changelog ==
+= V 3.1 =
+http://wpsuportplus.byethost7.com/?p=111
+* Facebook login for guest user to submit ticket
+
 = V 3.0 =
 http://wpsuportplus.byethost7.com/?p=83
 
