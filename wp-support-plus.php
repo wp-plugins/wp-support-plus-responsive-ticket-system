@@ -4,7 +4,7 @@
  * Plugin URI: http://wordpress.org/support/view/plugin-reviews/wp-support-plus-responsive-ticket-system
  * Description: Easy to use Customer Support System in Wordpress itself!
  * License: GPL v3
- * Version: 3.1
+ * Version: 3.2
  * Author: pradeepmakone
  * Author URI: http://profiles.wordpress.org/pradeepmakone07/
  */

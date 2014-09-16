@@ -1,6 +1,6 @@
 === WP Support Plus Responsive Ticket System ===
 License: GPL v3
-Tags: ticket,case,system,support,help,helpdesk,ticket system,support system,crm,contact,button,responsive,guest
+Tags: ticket,case,system,support,help,helpdesk,ticket system,support system,crm,contact,button,responsive,guest,chat,skype,call,phone
 Requires at least: 3.0
 Tested up to: 4.0
 Stable tag: 3.0.0
@@ -10,7 +10,7 @@ Stable tag: 3.0.0
 This plugin adds to Wordpress the features of a complete ticket system with 100% responsive and 100% Ajax functionality. This allows users to submit tickets to report problems or get support on whatever you want. Users can set the status, priority and category of each ticket.
 
 = What's New today? =
-http://wpsuportplus.byethost7.com/?p=111
+http://wpsuportplus.byethost7.com/?p=123
 
 = Plugin's Demo =
 http://wpsupprtplusdemo.byethost7.com/
@@ -41,6 +41,9 @@ Features :
 * responsive Support Button on all pages with top-left,top-right,bottom-left,bottom-right fix position options
 * smooth integration with WordPress themes
 * bootstrap based design
+* skype chat(Members Only)
+* skype call(Members Only)
+* display phone number(Members Only)
 
 
 Examples areas of use :
@@ -66,13 +69,20 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 
 == Screenshots ==
 
-1. screenshot-1.jpg
-2. screenshot-2.jpg
-3. screenshot-3.jpg
-4. screenshot-4.jpg
+1. screenshot-5.jpg
+2. screenshot-1.jpg
+3. screenshot-2.jpg
+4. screenshot-3.jpg
+5. screenshot-4.jpg
 
 
 == Changelog ==
+= V 3.2 =
+http://wpsuportplus.byethost7.com/?p=123
+* Skype chat
+* Skype call
+* Display phone number
+
 = V 3.1 =
 http://wpsuportplus.byethost7.com/?p=111
 * Facebook login for guest user to submit ticket
