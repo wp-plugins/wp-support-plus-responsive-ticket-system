@@ -25,15 +25,15 @@ Features :
 * priority, status, category selection for each ticket
 * multiple file attachment for ticket and reply
 * Unlimited Support Agent user roll for ticket reply
-* Supervisor user roll for Ticket & Agent Management(Members Only)
-* assign tickets to agents(Members Only)
-* agent based ticket statistics(Members Only)
-* ticket assignment mail notifications(Members Only)
-* delete ticket(Members Only)
-* change status,category and priority without replying(Members Only)
+* Supervisor user roll for Ticket & Agent Management
+* assign tickets to agents
+* agent based ticket statistics
+* ticket assignment mail notifications
+* delete ticket
+* change status,category and priority without replying
 * ticket submission captcha
 * Guest ticket submission
-* Guest ticket submission via Facebook(Members Only)
+* Guest ticket submission via Facebook
 * mail notification upon new ticket submission for admin and originator
 * 100% Responsive Design works with any theme
 * 100% Ajax based functionality works 200% faster
@@ -41,9 +41,9 @@ Features :
 * responsive Support Button on all pages with top-left,top-right,bottom-left,bottom-right fix position options
 * smooth integration with WordPress themes
 * bootstrap based design
-* skype chat(Members Only)
-* skype call(Members Only)
-* display phone number(Members Only)
+* skype chat
+* skype call
+* display phone number
 
 
 Examples areas of use :
