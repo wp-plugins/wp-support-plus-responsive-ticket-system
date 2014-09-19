@@ -83,6 +83,9 @@ http://wpsuportplus.byethost7.com/?p=123
 * Skype call
 * Display phone number
 
+= V 3.3 =
+* minor bug fixes
+
 = V 3.1 =
 http://wpsuportplus.byethost7.com/?p=111
 * Facebook login for guest user to submit ticket
