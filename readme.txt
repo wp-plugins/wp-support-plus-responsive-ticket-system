@@ -77,14 +77,17 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 
 
 == Changelog ==
+= V 3.4 =
+* fix fancybox width and height for skype call and chat
+
+= V 3.3 =
+* minor bug fixes
+
 = V 3.2 =
 http://wpsuportplus.byethost7.com/?p=123
 * Skype chat
 * Skype call
 * Display phone number
-
-= V 3.3 =
-* minor bug fixes
 
 = V 3.1 =
 http://wpsuportplus.byethost7.com/?p=111
