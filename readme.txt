@@ -77,6 +77,11 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 
 
 == Changelog ==
+= V 3.5 =
+* Skype Click to Chat added
+* Skype Click to Call added
+* Fix for secure gravtar images
+
 = V 3.4 =
 * fix fancybox width and height for skype call and chat
 
