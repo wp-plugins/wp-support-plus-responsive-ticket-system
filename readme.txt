@@ -10,7 +10,7 @@ Stable tag: 3.0.0
 This plugin adds to Wordpress the features of a complete ticket system with 100% responsive and 100% Ajax functionality. This allows users to submit tickets to report problems or get support on whatever you want. Users can set the status, priority and category of each ticket.
 
 = What's New today? =
-http://wpsuportplus.byethost7.com/?p=146
+http://wpsuportplus.byethost7.com/?p=151
 
 = Plugin's Demo =
 http://wpsupprtplusdemo.byethost7.com/
@@ -77,6 +77,10 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 
 
 == Changelog ==
+= V 3.6 =
+http://wpsuportplus.byethost7.com/?p=151
+* plugin is now translation ready.
+
 = V 3.5 =
 * Skype Click to Chat added
 * Skype Click to Call added
