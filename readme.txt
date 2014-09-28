@@ -78,7 +78,7 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 
 == Changelog ==
 = V 3.6 =
-http://wpsuportplus.byethost7.com/?p=151
+* http://wpsuportplus.byethost7.com/?p=151
 * plugin is now translation ready.
 
 = V 3.5 =
@@ -93,17 +93,17 @@ http://wpsuportplus.byethost7.com/?p=151
 * minor bug fixes
 
 = V 3.2 =
-http://wpsuportplus.byethost7.com/?p=123
+* http://wpsuportplus.byethost7.com/?p=123
 * Skype chat
 * Skype call
 * Display phone number
 
 = V 3.1 =
-http://wpsuportplus.byethost7.com/?p=111
+* http://wpsuportplus.byethost7.com/?p=111
 * Facebook login for guest user to submit ticket
 
 = V 3.0 =
-http://wpsuportplus.byethost7.com/?p=83
+* http://wpsuportplus.byethost7.com/?p=83
 
 = V 2.3 =
 * Minor bug fix
@@ -112,12 +112,12 @@ http://wpsuportplus.byethost7.com/?p=83
 * Bug fix: Quotes in mail Every apostrophe ' is replace by \' in ticket title in mails and ticket list (but not ticket itself) 
 
 = V 2.1 =
-http://wpsuportplus.byethost7.com/?p=71
+* http://wpsuportplus.byethost7.com/?p=71
 * Added setting of set email from and from name in support for Jason
 * This setting is available for our free and paid both versions
 
 = V 2.0 =
-http://wpsuportplus.byethost7.com/?p=55
+* http://wpsuportplus.byethost7.com/?p=55
 * supervisor user roll added
 * ticket can be assigned to agent by supervisor or admin
 * assign to filter added
@@ -127,5 +127,5 @@ http://wpsuportplus.byethost7.com/?p=55
 * minor bug fixes
 
 = V 1.0 =
-http://wpsuportplus.byethost7.com/?p=44
-*Initial release.
+* http://wpsuportplus.byethost7.com/?p=44
+* Initial release.
