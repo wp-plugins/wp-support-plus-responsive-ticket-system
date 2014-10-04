@@ -44,7 +44,7 @@ Features :
 * skype chat
 * skype call
 * display phone number
-
+* html editing of tickets
 
 Examples areas of use :
 
@@ -60,6 +60,12 @@ Examples areas of use :
 * appointment request system
 * easy ticket management for large orgnization
 
+Translations :
+
+* English(default by Pradeep)
+* Dutch by Ben
+* French by X-Raym
+* Spanish by 3ways
 
 == Installation ==
 
@@ -77,6 +83,13 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 
 
 == Changelog ==
+= V 3.7 =
+* HTML Editing of tickets
+* Hide "OR" login via facebook if not app details present
+* Translation Dutch by Ben
+* Translation French by X-Raym
+* Translation Spanish by 3ways
+
 = V 3.6 =
 * http://wpsuportplus.byethost7.com/?p=151
 * plugin is now translation ready.
