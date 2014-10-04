@@ -9,11 +9,9 @@ Stable tag: 3.0.0
 
 This plugin adds to Wordpress the features of a complete ticket system with 100% responsive and 100% Ajax functionality. This allows users to submit tickets to report problems or get support on whatever you want. Users can set the status, priority and category of each ticket.
 
-= Plugin's Demo =
-http://wpsupprtplusdemo.byethost7.com/
-
 = Pro Features =
-http://wpsuportplus.byethost7.com/
+* http://wpsupportplus.in/ (Under constuction)
+* Important note for our pro users- we ware facing hosting issues on earlier plugin site, so now we are moving site to another host provider. We are sorry for incontinence causing to you.
 
 Features :
 
