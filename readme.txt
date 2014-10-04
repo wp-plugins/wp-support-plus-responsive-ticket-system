@@ -11,7 +11,7 @@ This plugin adds to Wordpress the features of a complete ticket system with 100%
 
 = Pro Features =
 * http://wpsupportplus.in/ (Under constuction)
-* Important note for our pro users- we ware facing hosting issues on earlier plugin site, so now we are moving site to another host provider. We are sorry for incontinence causing to you.
+* Important note for our pro users- we ware facing hosting issues on earlier plugin site, so now we are moving site to another host provider. We are sorry for incontinence causing to you. Please contact me on email(pradeepmakone@gmail.com) till everyting is back on track!
 
 Features :
 
