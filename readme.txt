@@ -3,15 +3,14 @@ License: GPL v3
 Tags: ticket,case,system,support,help,helpdesk,ticket system,support system,crm,contact,button,responsive,guest,chat,skype,call,phone
 Requires at least: 3.0
 Tested up to: 4.0
-Stable tag: 3.0.0
+Stable tag: 3.8
 
 == Description ==
 
 This plugin adds to Wordpress the features of a complete ticket system with 100% responsive and 100% Ajax functionality. This allows users to submit tickets to report problems or get support on whatever you want. Users can set the status, priority and category of each ticket.
 
 = Pro Features =
-* http://wpsupportplus.in/ (Under constuction)
-* Important note for our pro users- we ware facing hosting issues on earlier plugin site, so now we are moving site to another host provider. We are sorry for incontinence causing to you. Please contact me on email(pradeepmakone@gmail.com) till everyting is back on track!
+* http://wpsupportplus.in/
 
 Features :
 
@@ -78,6 +77,9 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 
 
 == Changelog ==
+= V 3.8 =
+* Plugin Website changed to http://wpsupportplus.in
+
 = V 3.7 =
 * HTML Editing of tickets
 * Hide "OR" login via facebook if not app details present
@@ -86,7 +88,7 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 * Translation Spanish by 3ways
 
 = V 3.6 =
-* http://wpsuportplus.byethost7.com/?p=151
+* http://wpsupportplus.in/?p=151
 * plugin is now translation ready.
 
 = V 3.5 =
@@ -101,17 +103,17 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 * minor bug fixes
 
 = V 3.2 =
-* http://wpsuportplus.byethost7.com/?p=123
+* http://wpsupportplus.in/?p=123
 * Skype chat
 * Skype call
 * Display phone number
 
 = V 3.1 =
-* http://wpsuportplus.byethost7.com/?p=111
+* http://wpsupportplus.in/?p=111
 * Facebook login for guest user to submit ticket
 
 = V 3.0 =
-* http://wpsuportplus.byethost7.com/?p=83
+* http://wpsupportplus.in/?p=83
 
 = V 2.3 =
 * Minor bug fix
@@ -120,12 +122,12 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 * Bug fix: Quotes in mail Every apostrophe ' is replace by \' in ticket title in mails and ticket list (but not ticket itself) 
 
 = V 2.1 =
-* http://wpsuportplus.byethost7.com/?p=71
+* http://wpsupportplus.in/?p=71
 * Added setting of set email from and from name in support for Jason
 * This setting is available for our free and paid both versions
 
 = V 2.0 =
-* http://wpsuportplus.byethost7.com/?p=55
+* http://wpsupportplus.in/?p=55
 * supervisor user roll added
 * ticket can be assigned to agent by supervisor or admin
 * assign to filter added
@@ -135,5 +137,5 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 * minor bug fixes
 
 = V 1.0 =
-* http://wpsuportplus.byethost7.com/?p=44
+* http://wpsupportplus.in/?p=44
 * Initial release.

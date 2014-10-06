@@ -84,7 +84,7 @@ final class WPSupportPlusAdmin {
 	
 	function support(){
 		?>
-		<h1 style="text-align: center; margin-top: 50px;"><a href="http://wpsuportplus.byethost7.com/">Click Here</a> for Support and updates after 1.0</h1>
+		<h1 style="text-align: center; margin-top: 50px;"><a href="http://wpsupportplus.in/">Click Here</a> for Support and updates</h1>
 		<?php 
 	}
 }
