@@ -3,7 +3,7 @@ License: GPL v3
 Tags: ticket,case,system,support,help,helpdesk,ticket system,support system,crm,contact,button,responsive,guest,chat,skype,call,phone
 Requires at least: 3.0
 Tested up to: 4.0
-Stable tag: 3.8
+Stable tag: 3.9
 
 == Description ==
 
@@ -39,6 +39,7 @@ Features :
 * skype call
 * display phone number
 * html editing of tickets
+* custom slider menus
 
 Examples areas of use :
 
@@ -77,6 +78,11 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 
 
 == Changelog ==
+= V 3.9 =
+* Guest Ticket Form added
+* Custom Sliding Panel Menu feature added
+* Bug fixes
+
 = V 3.8 =
 * Plugin Website changed to http://wpsupportplus.in
 
