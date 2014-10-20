@@ -31,16 +31,18 @@ final class WPSupportPlusFrontEnd{
 		wp_localize_script( 'wpce_public', 'display_ticket_data', $localize_script_data );
 		$generalSettings=get_option( 'wpsp_general_settings' );
 		?>
-		<div class="support_bs" style="max-width: 500px;">
-			<?php 
-			if(is_user_logged_in()){
-				include_once( WCE_PLUGIN_DIR.'includes/loggedInUser.php' );
-			}
-			else if($generalSettings['enable_guest_ticket']){
-				include_once( WCE_PLUGIN_DIR.'includes/guestUser.php' );
-			}
-			?>
-		</div>
+		<?php
+		ob_start();
+		echo '<div class="support_bs">';
+		if(is_user_logged_in()){
+			include_once( WCE_PLUGIN_DIR.'includes/loggedInUser.php' );
+		}
+		else if($generalSettings['enable_guest_ticket']){
+			include_once( WCE_PLUGIN_DIR.'includes/guestUser.php' );
+		}
+		echo '</div>';
+		return ob_get_clean();
+		?>
 		<?php 
 	}
 }
