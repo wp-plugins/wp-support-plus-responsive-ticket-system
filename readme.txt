@@ -3,7 +3,7 @@ License: GPL v3
 Tags: ticket,case,system,support,help,helpdesk,ticket system,support system,crm,contact,button,responsive,guest,chat,skype,call,phone
 Requires at least: 3.0
 Tested up to: 4.0
-Stable tag: 3.9
+Stable tag: 4.0
 
 == Description ==
 
@@ -16,8 +16,9 @@ Features :
 
 * ticket submission through the admin
 * ticket submission through the frontend
+* ticket submission on behalf of users
 * priority, status, category selection for each ticket
-* multiple file attachment for ticket and reply
+* multiple file attachment for ticket and reply also attachments attached to mail as well
 * Unlimited Support Agent user roll for ticket reply
 * Supervisor user roll for Ticket & Agent Management
 * assign tickets to agents
@@ -78,6 +79,14 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 
 
 == Changelog ==
+= V 4.0 =
+* ticket submission on behalf of users added
+* attachment sent with email added
+* shortcode bug fixed
+* turn off slider only settings added
+* removed third party images and keep in plugin folder
+* link in mail changed to support page instead of site url
+
 = V 3.9 =
 * Guest Ticket Form added
 * Custom Sliding Panel Menu feature added
