@@ -1,7 +1,7 @@
 <?php 
 /**
  * Plugin Name: WP Support Plus
- * Plugin URI: http://wordpress.org/support/view/plugin-reviews/wp-support-plus-responsive-ticket-system
+ * Plugin URI: https://wordpress.org/plugins/wp-support-plus-responsive-ticket-system/
  * Description: Easy to use Customer Support System in Wordpress itself!
  * License: GPL v3
  * Version: 4.0
