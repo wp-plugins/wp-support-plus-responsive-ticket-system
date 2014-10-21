@@ -5,7 +5,7 @@
  * Description: Easy to use Customer Support System in Wordpress itself!
  * License: GPL v3
  * Version: 4.0
- * Author: pradeepmakone
+ * Author: pradeepmakone07
  * Author URI: http://profiles.wordpress.org/pradeepmakone07/
  */
 
