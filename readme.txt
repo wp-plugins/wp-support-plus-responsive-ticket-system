@@ -11,7 +11,7 @@ Stable tag: 4.0
 This plugin adds to Wordpress the features of a complete ticket system with 100% responsive and 100% Ajax functionality. This allows users to submit tickets to report problems or get support on whatever you want. Users can set the status, priority and category of each ticket.
 
 = Pro Features =
-* http://wpsupportplus.in/
+* http://pradeepmakone.com/wpsupportplus/
 
 Features :
 
@@ -42,6 +42,7 @@ Features :
 * display phone number
 * html editing of tickets
 * custom slider menus
+* In Plugin Support
 
 Examples areas of use :
 
@@ -80,6 +81,13 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 
 
 == Changelog ==
+= V 4.1 =
+* Javascript Injection security bug fix
+* Shift front-end styles to header
+* Change front-end width for 100% of the page
+* In Plugin Support added
+* website changed to http://pradeepmakone.com/wpsupportplus/ for security reasons.
+
 = V 4.0 =
 * ticket submission on behalf of users added
 * attachment sent with email added

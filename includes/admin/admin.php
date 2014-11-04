@@ -43,6 +43,7 @@ final class WPSupportPlusAdmin {
 		get_currentuserinfo();
 		
 		?>
+		<div class="updated" style="margin-left:-1px;"><p><a href="http://pradeepmakone.com/wpsupportplus/">Click here</a> to see <b>Pro Features</b>.</p></div>
 		<div class="panel panel-primary" style="width: 99%; margin-top: 20px;">
 		  <div class="panel-heading">
 		    <h3 class="panel-title">WP Support Plus</h3>
@@ -71,6 +72,7 @@ final class WPSupportPlusAdmin {
 		wp_localize_script( 'wpce_admin_settings', 'display_ticket_data', $localize_script_data );
 		
 		?>
+		<div class="updated" style="margin-left:-1px;"><p><a href="http://pradeepmakone.com/wpsupportplus/">Click here</a> to see <b>Pro Features</b>.</p></div>
 		<div class="panel panel-primary" style="width: 99%; margin-top: 20px;">
 		  <div class="panel-heading">
 		    <h3 class="panel-title">WP Support Plus Settings</h3>
@@ -84,7 +86,7 @@ final class WPSupportPlusAdmin {
 	
 	function support(){
 		?>
-		<h1 style="text-align: center; margin-top: 50px;"><a href="http://wpsupportplus.in/">Click Here</a> for Support and updates</h1>
+		<iframe src="http://pradeepmakone.com/wpsupportplus/support/" style="width: 90%;height: 550px;border: 4px solid #ffffff;"></iframe>
 		<?php 
 	}
 }
