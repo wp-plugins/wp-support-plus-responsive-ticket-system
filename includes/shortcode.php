@@ -12,13 +12,13 @@ final class WPSupportPlusFrontEnd{
 	function loadScripts(){
 		wp_enqueue_script( 'jquery' );
 		wp_enqueue_script( 'jquery-ui-core' );
+		wp_enqueue_style('wpce_bootstrap', WCE_PLUGIN_URL . 'asset/js/bootstrap/css/bootstrap.css');
+		wp_enqueue_style('wpce_display_ticket', WCE_PLUGIN_URL . 'asset/css/display_ticket.css');
+		wp_enqueue_style('wpce_public', WCE_PLUGIN_URL . 'asset/css/public.css');
 	}
 	
 	function support_plus_shortcode(){
 		wp_enqueue_script('wpce_bootstrap', WCE_PLUGIN_URL . 'asset/js/bootstrap/js/bootstrap.min.js');
-		wp_enqueue_style('wpce_bootstrap', WCE_PLUGIN_URL . 'asset/js/bootstrap/css/bootstrap.css');
-		wp_enqueue_style('wpce_display_ticket', WCE_PLUGIN_URL . 'asset/css/display_ticket.css');
-		wp_enqueue_style('wpce_public', WCE_PLUGIN_URL . 'asset/css/public.css');
 		wp_enqueue_script('wpce_public', WCE_PLUGIN_URL . 'asset/js/public.js');
 		$isUserLogged=(is_user_logged_in())?1:0;
 		$localize_script_data=array(
