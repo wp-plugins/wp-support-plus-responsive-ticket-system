@@ -64,6 +64,7 @@ Translations :
 * Dutch by Ben
 * French by X-Raym
 * Spanish by 3ways
+* Italian by elmanisero
 
 == Installation ==
 
