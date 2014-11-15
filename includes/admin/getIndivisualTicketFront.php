@@ -3,6 +3,8 @@ global $wpdb;
 global $current_user;
 get_currentuserinfo();
 
+if(!is_numeric($_POST['ticket_id'])) die(); //sql injection
+
 $sql="select subject,type,status,cat_id,priority,created_by,guest_name
 		FROM {$wpdb->prefix}wpsp_ticket WHERE id=".$_POST['ticket_id'];
 $ticket = $wpdb->get_row( $sql );
@@ -135,7 +137,7 @@ $categories = $wpdb->get_results( "SELECT * FROM {$wpdb->prefix}wpsp_catagories"
 					$attach=$wpdb->get_row( "select * from {$wpdb->prefix}wpsp_attachments where id=".$attachment );
 					$attachCount++;
 				?>
-				<span class="attachment_link" title="Download" onclick="downloadAttachment(<?php echo "'".$attach->filetype."','".$attach->filepath."'";?>);"><?php echo ($attachCount>1)?', ':'';echo $attach->filename;?></span>
+				<a class="attachment_link" title="Download" target="_blank" href="<?php echo $attach->fileurl;?>" ><?php echo ($attachCount>1)?', ':'';echo $attach->filename;?></a>
 				<?php }?>
 			</div>
 			<?php }?>

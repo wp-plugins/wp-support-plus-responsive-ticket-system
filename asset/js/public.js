@@ -201,14 +201,6 @@ function backToTicketFromIndisual(){
 	getTickets();
 }
 
-function downloadAttachment(type,path){
-	var width=400;
-	var height=500;
-	var left = (screen.width/2)-(width/2);
-	var top = (screen.height/2)-(height/2);
-	window.open(display_ticket_data.plugin_url+'includes/admin/downloadAttachment.php?path='+path,'name','width=' + width + ',height=' + height + ',left=' + left + ',top=' + top+ ',scrollbars=1');
-}
-
 function setSignature(id){
 	jQuery('#agent_settings #agent_settings_area').hide();
 	jQuery('#agent_settings .wait').show();

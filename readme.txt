@@ -4,7 +4,7 @@ License: GPL v3
 Tags: ticket,case,system,support,help,helpdesk,ticket system,support system,crm,contact,button,responsive,guest,chat,skype,call,phone
 Requires at least: 3.0
 Tested up to: 4.0
-Stable tag: 4.0
+Stable tag: 4.2
 
 == Description ==
 
@@ -82,6 +82,14 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 
 
 == Changelog ==
+= V 4.2 =
+* Multiple Vulnerabilities fix added
+* SQL Injection security
+* Full Path desclosure security
+* Directory traversal security
+* Brocken authentication security
+* Removed downloadAttachment.php file for security reasons
+
 = V 4.1 =
 * Javascript Injection security bug fix
 * Shift front-end styles to header
