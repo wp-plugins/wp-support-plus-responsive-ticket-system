@@ -4,7 +4,7 @@ License: GPL v3
 Tags: ticket,case,system,support,help,helpdesk,ticket system,support system,crm,contact,button,responsive,guest,chat,skype,call,phone
 Requires at least: 3.0
 Tested up to: 4.0
-Stable tag: 4.2
+Stable tag: 4.3
 
 == Description ==
 
@@ -82,6 +82,10 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 
 
 == Changelog ==
+= V 4.3 =
+* Role Management Settings added
+* Now add agent/supervisor capability to your existing user roles
+
 = V 4.2 =
 * Multiple Vulnerabilities fix added
 * SQL Injection security
