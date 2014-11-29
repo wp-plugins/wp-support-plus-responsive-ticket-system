@@ -1,4 +1,7 @@
 <?php 
+$generalSettings=get_option( 'wpsp_general_settings' );
+$support_permalink=get_permalink($generalSettings['post_id']);
+
 $emailSettings=get_option( 'wpsp_email_notification_settings' );
 
 $sql="select subject,status,created_by,guest_email
@@ -8,10 +11,10 @@ $ticket = $wpdb->get_row( $sql );
 $subject='[Ticket #'.$_POST['ticket_id'].']['.$_POST['reply_ticket_status'].'] '.stripcslashes($ticket->subject);
 $body=preg_replace("/(\r\n|\n|\r)/", '<br>', $_POST['replyBody']);
 $body=stripcslashes($body);
-$body.='<br><br><a href="'.site_url().'">'.site_url().'</a>';
+$body.='<br><br><a href="'.$support_permalink.'">'.$support_permalink.'</a>';
 
 $headers = "MIME-Version: 1.0" . "\r\n";
-$headers .= "Content-type: text/html; charset=iso-8859-1" . "\r\n";
+$headers .= "Content-type: text/html; charset=UTF-8" . "\r\n";
 $headers .= 'From: '.$emailSettings['default_from_name'].' <'.$emailSettings['default_from_email'].'>' . "\r\n";
 
 $emailToSend='';
