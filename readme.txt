@@ -65,6 +65,7 @@ Translations :
 * French by X-Raym
 * Spanish by 3ways
 * Italian by elmanisero
+* Portuguese by creativeangels
 
 == Installation ==
 
@@ -85,6 +86,7 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 = V 4.3 =
 * Role Management Settings added
 * Now add agent/supervisor capability to your existing user roles
+* Translation Portuguese by creativeangels
 
 = V 4.2 =
 * Multiple Vulnerabilities fix added
