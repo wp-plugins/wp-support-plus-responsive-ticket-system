@@ -43,6 +43,7 @@ Features :
 * html editing of tickets
 * custom slider menus
 * In Plugin Support
+* custom fields
 
 Examples areas of use :
 
@@ -83,6 +84,10 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 
 
 == Changelog ==
+= V 4.4 =
+* Custom Field Settings added
+* Traslation text update
+
 = V 4.3 =
 * Role Management Settings added
 * Now add agent/supervisor capability to your existing user roles
