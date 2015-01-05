@@ -67,6 +67,7 @@ Translations :
 * Spanish by 3ways
 * Italian by elmanisero
 * Portuguese by creativeangels
+* Serbian by Cherry ( http://www.trade.in.rs/ )
 
 == Installation ==
 
@@ -87,6 +88,7 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 = V 4.4 =
 * Custom Field Settings added
 * Traslation text update
+* Translation Serbian by Cherry
 
 = V 4.3 =
 * Role Management Settings added
