@@ -3,8 +3,8 @@ Contributors: pradeepmakone07
 License: GPL v3
 Tags: ticket,support,helpdesk,crm,responsive,chat,skype,email pipe,contact
 Requires at least: 3.0
-Tested up to: 4.0
-Stable tag: 4.3
+Tested up to: 4.1
+Stable tag: 5.0
 
 == Description ==
 
@@ -27,7 +27,6 @@ Features :
 * ticket assignment mail notifications
 * delete ticket
 * change status,category and priority without replying
-* ticket submission captcha
 * Guest ticket submission
 * Guest ticket submission via Facebook
 * mail notification upon new ticket submission for admin and originator
@@ -44,6 +43,8 @@ Features :
 * custom slider menus
 * In Plugin Support
 * custom fields
+* Restrict front-end ticket to specific user role (helpful for woocommerce customers)
+* Email Piping (depend on availability of this feature on your host)
 
 Examples areas of use :
 
@@ -85,6 +86,15 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 
 
 == Changelog ==
+= V 5.0 =
+* Email piping feature added
+* Hide Assigned task to an Agent from other agent
+* Restrict front-end ticket to specific user role by giving setting to administrator to choose them
+* Delete all attached files to ticket from server if we delete ticket in order to save server space
+* Email Notifications for multiple administrator and agents email notifications as per the ticket assigned.
+* Setting to select default category for new tickets
+* Traslation text update
+
 = V 4.4 =
 * Custom Field Settings added
 * Traslation text update
@@ -123,9 +133,6 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 * Custom Sliding Panel Menu feature added
 * Bug fixes
 
-= V 3.8 =
-* Plugin Website changed to http://wpsupportplus.in
-
 = V 3.7 =
 * HTML Editing of tickets
 * Hide "OR" login via facebook if not app details present
@@ -134,7 +141,6 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 * Translation Spanish by 3ways
 
 = V 3.6 =
-* http://wpsupportplus.in/?p=151
 * plugin is now translation ready.
 
 = V 3.5 =
@@ -149,17 +155,12 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 * minor bug fixes
 
 = V 3.2 =
-* http://wpsupportplus.in/?p=123
 * Skype chat
 * Skype call
 * Display phone number
 
 = V 3.1 =
-* http://wpsupportplus.in/?p=111
 * Facebook login for guest user to submit ticket
-
-= V 3.0 =
-* http://wpsupportplus.in/?p=83
 
 = V 2.3 =
 * Minor bug fix
@@ -168,12 +169,10 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 * Bug fix: Quotes in mail Every apostrophe ' is replace by \' in ticket title in mails and ticket list (but not ticket itself) 
 
 = V 2.1 =
-* http://wpsupportplus.in/?p=71
 * Added setting of set email from and from name in support for Jason
 * This setting is available for our free and paid both versions
 
 = V 2.0 =
-* http://wpsupportplus.in/?p=55
 * supervisor user roll added
 * ticket can be assigned to agent by supervisor or admin
 * assign to filter added
@@ -183,5 +182,4 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 * minor bug fixes
 
 = V 1.0 =
-* http://wpsupportplus.in/?p=44
 * Initial release.
