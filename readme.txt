@@ -1,7 +1,7 @@
 === WP Support Plus Responsive Ticket System ===
 Contributors: pradeepmakone07
 License: GPL v3
-Tags: ticket,case,system,support,help,helpdesk,ticket system,support system,crm,contact,button,responsive,guest,chat,skype,call,phone
+Tags: ticket,support,helpdesk,crm,responsive,chat,skype,email pipe,contact
 Requires at least: 3.0
 Tested up to: 4.0
 Stable tag: 4.3
