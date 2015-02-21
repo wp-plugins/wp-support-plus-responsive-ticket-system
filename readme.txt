@@ -4,7 +4,7 @@ License: GPL v3
 Tags: ticket,support,helpdesk,crm,responsive,chat,skype,email pipe,contact
 Requires at least: 3.0
 Tested up to: 4.1
-Stable tag: 5.0
+Stable tag: 5.1
 
 == Description ==
 
@@ -32,7 +32,7 @@ Features :
 * mail notification upon new ticket submission for admin and originator
 * 100% Responsive Design works with any theme
 * 100% Ajax based functionality works 200% faster
-* ajax based ticket filter for Agent and Admin to filter by type,status,category,priority and text search
+* ajax based ticket filter for Agent and Admin to filter by type,status,category,priority and search
 * responsive Support Button on all pages with top-left,top-right,bottom-left,bottom-right fix position options
 * smooth integration with WordPress themes
 * bootstrap based design
@@ -86,6 +86,14 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 
 
 == Changelog ==
+= V 5.1 =
+* Added new ID based and created by search filters to backend ticket list
+* Added filters for front end tickets
+* Added an option for making custom fields optional/required
+* Pre-assign Agent to category
+* Bug fix for email piping
+* Bug fix for back-end filter
+
 = V 5.0 =
 * Email piping feature added
 * Hide Assigned task to an Agent from other agent
