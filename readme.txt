@@ -69,6 +69,7 @@ Translations :
 * Italian by elmanisero
 * Portuguese by creativeangels
 * Serbian by Cherry ( http://www.trade.in.rs/ )
+* Swedish by rickeclaesson
 
 == Installation ==
 
@@ -93,6 +94,7 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 * Pre-assign Agent to category
 * Bug fix for email piping
 * Bug fix for back-end filter
+* Swedish translation by rickeclaesson
 
 = V 5.0 =
 * Email piping feature added
