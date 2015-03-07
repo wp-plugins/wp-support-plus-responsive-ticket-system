@@ -4,7 +4,7 @@ License: GPL v3
 Tags: ticket,support,helpdesk,crm,responsive,chat,skype,email pipe,contact
 Requires at least: 3.0
 Tested up to: 4.1
-Stable tag: 5.1
+Stable tag: 5.2
 
 == Description ==
 
@@ -70,6 +70,8 @@ Translations :
 * Portuguese by creativeangels
 * Serbian by Cherry ( http://www.trade.in.rs/ )
 * Swedish by rickeclaesson
+* Brazilian by Daniel Silveira
+* Persian by Behrooz Sedqi (www.apktops.ir)
 
 == Installation ==
 
@@ -87,6 +89,16 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 
 
 == Changelog ==
+= V 5.2 =
+* Ability to add public/private ticket
+* Added Drop-down custom field
+* Added FAQ functionality
+* Ability to hide login link for guest user on front-end
+* Jquery trigger bug fix
+* chdir bug fix for email piping
+* Brazilian Translation by Daniel Silveira
+* Persian Translation by Behrooz Sedqi (www.apktops.ir)
+
 = V 5.1 =
 * Added new ID based and created by search filters to backend ticket list
 * Added filters for front end tickets
