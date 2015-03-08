@@ -1,7 +1,7 @@
 === WP Support Plus Responsive Ticket System ===
 Contributors: pradeepmakone07
 License: GPL v3
-Tags: ticket,support,helpdesk,crm,responsive,chat,skype,email pipe,contact
+Tags: ticket,support,helpdesk,crm,responsive,chat,skype,email pipe,contact,faq
 Requires at least: 3.0
 Tested up to: 4.1
 Stable tag: 5.2
@@ -45,6 +45,8 @@ Features :
 * custom fields
 * Restrict front-end ticket to specific user role (helpful for woocommerce customers)
 * Email Piping (depend on availability of this feature on your host)
+* public/private tickets for logged-in users
+* FAQ functionality
 
 Examples areas of use :
 
@@ -71,7 +73,7 @@ Translations :
 * Serbian by Cherry ( http://www.trade.in.rs/ )
 * Swedish by rickeclaesson
 * Brazilian by Daniel Silveira
-* Persian by Behrooz Sedqi (www.apktops.ir)
+* Persian by Behrooz Sedqi ( http://www.apktops.ir )
 
 == Installation ==
 
