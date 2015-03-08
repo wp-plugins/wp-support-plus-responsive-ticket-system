@@ -21,12 +21,17 @@ final class WPSupportPlusFrontEnd{
 		wp_enqueue_script('wpce_bootstrap', WCE_PLUGIN_URL . 'asset/js/bootstrap/js/bootstrap.min.js');
 		wp_enqueue_script('wpce_public', WCE_PLUGIN_URL . 'asset/js/public.js');
 		$isUserLogged=(is_user_logged_in())?1:0;
+
+		//get theme
+		$my_theme = wp_get_theme();		
+
 		$localize_script_data=array(
 				'wpsp_ajax_url'=>admin_url( 'admin-ajax.php' ),
 				'wpsp_site_url'=>site_url(),
 				'plugin_url'=>WCE_PLUGIN_URL,
 				'plugin_dir'=>WCE_PLUGIN_DIR,
-				'user_logged_in'=>$isUserLogged
+				'user_logged_in'=>$isUserLogged,
+				'theme_name'=>$my_theme->get( 'Name' )
 		);
 		wp_localize_script( 'wpce_public', 'display_ticket_data', $localize_script_data );
 		$generalSettings=get_option( 'wpsp_general_settings' );

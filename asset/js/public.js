@@ -4,13 +4,40 @@ jQuery(document).ready(function(){
 	getTickets();
 	//alert(display_ticket_data.wpsp_ajax_url);
 	jQuery('#tab_ticket_container').click(function(){
+		if(display_ticket_data.theme_name=='Divi'){
+			jQuery('#tab_create_ticket').parent().removeClass('active');
+			jQuery('#tab_agent_settings').parent().removeClass('active');
+			jQuery('#tab_ticket_container').parent().addClass('active');
+			jQuery('#create_ticket').removeClass('active');
+			jQuery('#agent_settings').removeClass('active');
+			jQuery('#ticketContainer').addClass('active');
+		}		
 		page_no=0;
 		if(display_ticket_data.user_logged_in==1){
 			getTickets();
 		}
 	});
+
+	jQuery('#tab_create_ticket').click(function(){
+		if(display_ticket_data.theme_name=='Divi'){
+			jQuery('#tab_ticket_container').parent().removeClass('active');
+			jQuery('#tab_agent_settings').parent().removeClass('active');
+			jQuery('#tab_create_ticket').parent().addClass('active');
+			jQuery('#ticketContainer').removeClass('active');
+			jQuery('#agent_settings').removeClass('active');
+			jQuery('#create_ticket').addClass('active');
+		}
+	});
 	
 	jQuery('#tab_agent_settings').click(function(){
+		if(display_ticket_data.theme_name=='Divi'){
+			jQuery('#tab_create_ticket').parent().removeClass('active');
+			jQuery('#tab_ticket_container').parent().removeClass('active');
+			jQuery('#tab_agent_settings').parent().addClass('active');
+			jQuery('#create_ticket').removeClass('active');
+			jQuery('#ticketContainer').removeClass('active');
+			jQuery('#agent_settings').addClass('active');
+		}		
 		jQuery('#agent_settings #agent_settings_area').hide();
 		jQuery('#agent_settings .wait').show();
 		

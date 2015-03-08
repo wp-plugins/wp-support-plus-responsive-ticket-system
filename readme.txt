@@ -98,6 +98,7 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 * Ability to hide login link for guest user on front-end
 * Jquery trigger bug fix
 * chdir bug fix for email piping
+* Divi Tamplete compatibility bug fix
 * Brazilian Translation by Daniel Silveira
 * Persian Translation by Behrooz Sedqi (www.apktops.ir)
 
