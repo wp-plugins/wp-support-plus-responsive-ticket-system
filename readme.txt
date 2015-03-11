@@ -74,6 +74,7 @@ Translations :
 * Swedish by rickeclaesson
 * Brazilian by Daniel Silveira
 * Persian by Behrooz Sedqi ( http://www.apktops.ir )
+* Arabic by Arab façade
 
 == Installation ==
 
@@ -101,6 +102,7 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 * Divi Tamplete compatibility bug fix
 * Brazilian Translation by Daniel Silveira
 * Persian Translation by Behrooz Sedqi (www.apktops.ir)
+* Arabic Translation by Arab façade
 
 = V 5.1 =
 * Added new ID based and created by search filters to backend ticket list
