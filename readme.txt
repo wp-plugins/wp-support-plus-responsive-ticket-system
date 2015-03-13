@@ -75,6 +75,7 @@ Translations :
 * Brazilian by Daniel Silveira
 * Persian by Behrooz Sedqi ( http://www.apktops.ir )
 * Arabic by Arab façade
+* German by Michael L. Jaegers
 
 == Installation ==
 
@@ -103,6 +104,7 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 * Brazilian Translation by Daniel Silveira
 * Persian Translation by Behrooz Sedqi (www.apktops.ir)
 * Arabic Translation by Arab façade
+* German Translation by Michael L. Jaegers
 
 = V 5.1 =
 * Added new ID based and created by search filters to backend ticket list
