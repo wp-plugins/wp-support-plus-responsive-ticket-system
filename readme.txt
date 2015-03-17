@@ -4,7 +4,7 @@ License: GPL v3
 Tags: ticket,support,helpdesk,crm,responsive,chat,skype,email pipe,contact,faq
 Requires at least: 3.0
 Tested up to: 4.1
-Stable tag: 5.2
+Stable tag: 5.3
 
 == Description ==
 
@@ -47,6 +47,7 @@ Features :
 * Email Piping (depend on availability of this feature on your host)
 * public/private tickets for logged-in users
 * FAQ functionality
+* Custom CSS
 
 Examples areas of use :
 
@@ -94,6 +95,16 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 
 
 == Changelog ==
+= V 5.3 =
+* Agent can support from front-end
+* Administrator can set whether or not agent can assign ticket to other.
+* Administrator can set whether or not agent can delete ticket.
+* Custom field bug fix.
+* Administrator/supervisor can edit ticket fields of any ticket
+* Create ticket mail sent to creator.
+* Ability to create ticket for non-regitered user from back-end
+* Ability to add custom css
+
 = V 5.2 =
 * Ability to add public/private ticket
 * Added Drop-down custom field
