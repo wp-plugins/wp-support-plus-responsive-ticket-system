@@ -4,7 +4,7 @@ License: GPL v3
 Tags: ticket,support,helpdesk,crm,responsive,chat,skype,email pipe,contact,faq
 Requires at least: 3.0
 Tested up to: 4.1
-Stable tag: 5.3
+Stable tag: 5.4
 
 == Description ==
 
@@ -78,6 +78,7 @@ Translations :
 * Arabic by Arab façade
 * German by Michael L. Jaegers
 * Romania by Mihai
+* Russian by Vladimir Kudashev
 
 == Installation ==
 
@@ -95,6 +96,13 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 
 
 == Changelog ==
+= V 5.4 =
+* Admin can allow guest ticket file attachment
+* Custom Status (addition to open, pending and closed)
+* Custom message for guest after submitting ticket
+* Many bug fixes
+* Russian translation by Vladimir Kudashev
+
 = V 5.3 =
 * Agent can support from front-end
 * Administrator can set whether or not agent can assign ticket to other.
