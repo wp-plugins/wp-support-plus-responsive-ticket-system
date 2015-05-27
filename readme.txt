@@ -48,6 +48,7 @@ Features :
 * public/private tickets for logged-in users
 * FAQ functionality
 * Custom CSS
+* Google No CAPTCHA reCAPTCHA for guest ticket form
 
 Examples areas of use :
 
@@ -96,6 +97,13 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 
 
 == Changelog ==
+= V 5.5 =
+* Added Google No CAPTCHA reCAPTCHA for guest tickets
+* FAQ shown to guest fixed
+* Given setting to automatically change ticket status to status selected (gives more clearity to reply remaining tickets)
+* Single ticket/category can be assigned to multiple agents 
+* Many bug fixes
+
 = V 5.4 =
 * Admin can allow guest ticket file attachment
 * Custom Status (addition to open, pending and closed)
