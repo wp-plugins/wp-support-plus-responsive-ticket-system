@@ -3,7 +3,7 @@ Contributors: pradeepmakone07
 License: GPL v3
 Tags: ticket,support,helpdesk,crm,responsive,chat,skype,email pipe,contact,faq
 Requires at least: 3.0
-Tested up to: 4.1
+Tested up to: 4.2.2
 Stable tag: 5.4
 
 == Description ==
