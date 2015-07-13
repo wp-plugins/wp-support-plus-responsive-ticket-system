@@ -4,7 +4,7 @@ License: GPL v3
 Tags: ticket,support,helpdesk,crm,responsive,chat,skype,email pipe,contact,faq
 Requires at least: 3.0
 Tested up to: 4.2.2
-Stable tag: 5.4
+Stable tag: 6.0
 
 == Description ==
 
@@ -80,6 +80,7 @@ Translations :
 * German by Michael L. Jaegers
 * Romania by Mihai
 * Russian by Vladimir Kudashev
+* Traditional Chinese translation by Tiffany Lee
 
 == Installation ==
 
@@ -97,6 +98,23 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 
 
 == Changelog ==
+= V 6.0 =
+* Automatic Update in dashboard for pro version
+* Login area for non logged-in user in place of login link
+* Registration link for guest to create new account if allowed by Wordpress installation
+* New filter for back-end Support Plus having ability to remember filter for individual user until he reset/change
+* New filter for back-end can also filter tickets by custom fields
+* If guest create account(sign-up), he can see his old tickets he created as guest using same email address
+* Email piping made even better
+* Email piping multisite compatibility added (can use 1 blog for piping)
+* Bulk Change Status, Category, Priority of ticket from back-end
+* Bulk Assign ticket to Agents from back-end
+* Bulk Delete tickets from back-end
+* Changed HTML editor
+* Agent Signature made HTML friendly (used editor)
+* Traditional Chinese translation by Tiffany Lee
+* Few bug fixes
+
 = V 5.5 =
 * Added Google No CAPTCHA reCAPTCHA for guest tickets
 * FAQ shown to guest fixed
