@@ -3,7 +3,7 @@ Contributors: pradeepmakone07
 License: GPL v3
 Tags: ticket,support,helpdesk,crm,responsive,chat,skype,email pipe,contact,faq
 Requires at least: 3.0
-Tested up to: 4.2.2
+Tested up to: 4.2.3
 Stable tag: 6.0
 
 == Description ==
@@ -81,6 +81,7 @@ Translations :
 * Romania by Mihai
 * Russian by Vladimir Kudashev
 * Traditional Chinese translation by Tiffany Lee
+* Polish by Slawek Gdak ( http://www.blog.gdaq.pl )
 
 == Installation ==
 
@@ -98,6 +99,13 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 
 
 == Changelog ==
+= V 6.1.1 =
+* Added 3 more custom field type- Checkbox, Radio Button, Textarea
+* Hide other plugin update bug fix for automatic update
+* PEAR.php file included for email piping and no plain/text body found for email piping bug fixed
+* Anti Spam technique for login
+* Polish translation by Slawek Gdak(http://www.blog.gdaq.pl)
+
 = V 6.0 =
 * Automatic Update in dashboard for pro version
 * Login area for non logged-in user in place of login link
@@ -233,6 +241,7 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 = V 3.2 =
 * Skype chat
 * Skype call
+
 * Display phone number
 
 = V 3.1 =
