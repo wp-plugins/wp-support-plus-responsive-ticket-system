@@ -3,8 +3,8 @@ Contributors: pradeepmakone07
 License: GPL v3
 Tags: ticket,support,helpdesk,crm,responsive,chat,skype,email pipe,contact,faq
 Requires at least: 3.0
-Tested up to: 4.2.3
-Stable tag: 6.0
+Tested up to: 4.3
+Stable tag: 6.1.3
 
 == Description ==
 
@@ -99,6 +99,33 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 
 
 == Changelog ==
+= V 6.1.3 =
+* ability to enable, disable, change order of create ticket form except name, email, subject and discription
+* ability to enable, disable, change order of ticket listing table for front-end
+* ability to enable, disable, change order of ticket listing table for back-end
+* ability to enable, disable ticket filter for front-end including filter for custom fields
+* ability to create custom priority
+* ability to set color for default status as well as custom status
+* ability to set color for default priority as well as custom priority
+* ability to sort ticket listing table on back-end on table header click
+* added "All Active" in Status Filter that will get all tickets except closed status
+* ability to set default 'reply to' email address for case where reply email must send to email other than send
+* added thread date time along with 'time ago' for each thread
+* email piping nl2br bug fixed
+* automatically set mailPipe.php permissions on install or update
+* disable front end new ticket submission for case if anyone want to create new ticket only via email piping and later he can see his ticket after login or register with same email
+* handle email attachments for email piping (supported file type-jpg, png, gif, zip, pdf)
+* added Email Templates with ability to choose applicable users for sending email for 'create new ticket' and 'reply ticket'
+* added ability to choose users for sending email for 'change status', 'assign agent', 'delete ticket'
+* added ability to set subject character length in ticket listing table for both front-end and back-end
+* bug fixed- Search by Registered user name not work in backend
+* bug fixed- Statistics page not showing custom statuses
+* bug fixed- Bulk delete for agent not working if given athority to delete ticket
+
+= V 6.1.2 =
+* Required fields bug fixed introduced in 6.1.1
+* Some spell correction
+
 = V 6.1.1 =
 * Added 3 more custom field type- Checkbox, Radio Button, Textarea
 * Hide other plugin update bug fix for automatic update
