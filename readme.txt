@@ -4,7 +4,7 @@ License: GPL v3
 Tags: ticket,support,helpdesk,crm,responsive,chat,skype,email pipe,contact,faq
 Requires at least: 3.0
 Tested up to: 4.3
-Stable tag: 6.1.3
+Stable tag: 6.1.4
 
 == Description ==
 
@@ -99,6 +99,24 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 
 
 == Changelog ==
+= V 6.1.4 =
+* Add create time, update time table list field with date and time to show using custom format
+* Status and Priority re-ordering settings
+* Add link to WP Support Plus to WordPress Admin Bar
+* Allow additional recipients to ticket replies (CC and BCC)
+* Create a new ticket from an existing thread
+* Add a note without notification to a ticket
+* Change ticket status without notification
+* Add accordion to threads
+* Improved registered user search
+* Create ticket without notification from back-end on behalf of user or guest
+* Search by Registered user name not work in backend bug fix
+* Filter with priority not working in back-end bug fix
+* Single or doble quote in Custom CSS textarea problem bug fix
+* Email Template editor bug fixed for links and images
+* multiple default statuses showing bug fixed
+* issues with default status and priority text translations fixed
+
 = V 6.1.3 =
 * ability to enable, disable, change order of create ticket form except name, email, subject and discription
 * ability to enable, disable, change order of ticket listing table for front-end
