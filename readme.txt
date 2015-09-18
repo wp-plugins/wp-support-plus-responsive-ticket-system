@@ -3,8 +3,8 @@ Contributors: pradeepmakone07
 License: GPL v3
 Tags: ticket,support,helpdesk,crm,responsive,chat,skype,email pipe,contact,faq
 Requires at least: 3.0
-Tested up to: 4.3
-Stable tag: 6.1.4
+Tested up to: 4.3.1
+Stable tag: 6.1.5
 
 == Description ==
 
@@ -99,6 +99,13 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 
 
 == Changelog ==
+= V 6.1.5 =
+* Added Settings to replace word "Ticket"
+* Added Settings to replace default form labels (e.g. Subject, Description, etc.)
+* Add note made private to support staff (hidden from customer view)
+* Added support for HTML reply in email piping
+* Few Bug fixes
+
 = V 6.1.4 =
 * Add create time, update time table list field with date and time to show using custom format
 * Status and Priority re-ordering settings

@@ -41,9 +41,9 @@ final class WPSupportPlusAdmin {
 		
 		global $current_user;
 		get_currentuserinfo();
-		
+		$this->getUpdateNotice();
 		?>
-		<div class="updated" style="margin-left:-1px;"><p><a href="http://pradeepmakone.com/wpsupportplus/">Click here</a> to see <b>Pro Features</b>.</p></div>
+		
 		<div class="panel panel-primary" style="width: 99%; margin-top: 20px;">
 		  <div class="panel-heading">
 		    <h3 class="panel-title">WP Support Plus</h3>
@@ -70,7 +70,7 @@ final class WPSupportPlusAdmin {
 				'plugin_dir'=>WCE_PLUGIN_DIR
 		);
 		wp_localize_script( 'wpce_admin_settings', 'display_ticket_data', $localize_script_data );
-		
+		$this->getUpdateNotice();
 		?>
 		<div class="updated" style="margin-left:-1px;"><p><a href="http://pradeepmakone.com/wpsupportplus/">Click here</a> to see <b>Pro Features</b>.</p></div>
 		<div class="panel panel-primary" style="width: 99%; margin-top: 20px;">
@@ -88,6 +88,33 @@ final class WPSupportPlusAdmin {
 		?>
 		<iframe src="http://pradeepmakone.com/wpsupportplus/support/" style="width: 90%;height: 550px;border: 4px solid #ffffff;"></iframe>
 		<?php 
+	}
+	
+	function getUpdateNotice(){
+		global $current_user;
+		get_currentuserinfo();
+		$siteDataWPSP = file_get_contents('http://pradeepmakone.com/wp_support_plus_update_and_offers.txt');
+		if($siteDataWPSP && $current_user->has_cap('manage_options')){
+			$siteDataWPSP_obj=json_decode($siteDataWPSP);
+			?>
+				<div class="updated" style="margin-left:-1px;"><p><a href="http://pradeepmakone.com/wpsupportplus/">Click here</a> to see <b>Pro Features</b>.</p></div>
+				<div class="updated" style="margin-left:-1px;">
+					<p>
+						<b>Today's offer:</b> Use Discount Code <b><?php echo $siteDataWPSP_obj->offer_code;?></b> to get <b><?php echo $siteDataWPSP_obj->offer_percent;?>%</b> Discount on Pro version.
+					</p>
+				</div>
+			<?php 
+			if(WPSP_VERSION < $siteDataWPSP_obj->latest_version){
+				?>
+				<div class="updated" style="margin-left:-1px;">
+					<p>
+						<?php echo __('New Version','wp-support-plus-responsive').' '.$siteDataWPSP_obj->latest_version.' '.__('available','wp-support-plus-responsive').' (Current Version: '.WPSP_VERSION.')';?>. 
+						<a href="https://wordpress.org/plugins/wp-support-plus-responsive-ticket-system/changelog/" target="__blank"><?php _e('View Changelog','wp-support-plus-responsive');?></a>.
+					</p>
+				</div>
+				<?php 
+			}
+		}
 	}
 }
 
