@@ -4,7 +4,7 @@ License: GPL v3
 Tags: ticket,support,helpdesk,crm,responsive,chat,skype,email pipe,contact,faq
 Requires at least: 3.0
 Tested up to: 4.3.1
-Stable tag: 6.1.5
+Stable tag: 6.1.6
 
 == Description ==
 
@@ -49,6 +49,9 @@ Features :
 * FAQ functionality
 * Custom CSS
 * Google No CAPTCHA reCAPTCHA for guest ticket form
+* Custom Status with ability to re-order, rename default Status
+* Custom Priority with ability to re-order, , rename default Priority
+* Add note for Support staff for ticket
 
 Examples areas of use :
 
@@ -99,6 +102,12 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 
 
 == Changelog ==
+= V 6.1.6 =
+* Added ability to rename custom and default status
+* Added ability to rename custom and default priority
+* Added Add Note facility for front-end
+* Bug fixed: custom status and Custom priority not adding
+
 = V 6.1.5 =
 * Added Settings to replace word "Ticket"
 * Added Settings to replace default form labels (e.g. Subject, Description, etc.)
