@@ -4,7 +4,7 @@ License: GPL v3
 Tags: ticket,support,helpdesk,crm,responsive,chat,skype,email pipe,contact,faq
 Requires at least: 3.0
 Tested up to: 4.3.1
-Stable tag: 6.1.7
+Stable tag: 6.1.8
 
 == Description ==
 
@@ -102,6 +102,10 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 
 
 == Changelog ==
+= V 6.1.8 =
+* User avatar support (buddypress profile picture etc.)
+* Few bug fixes
+
 = V 6.1.7 =
 * Custom Priority small bug fixed
 
