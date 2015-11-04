@@ -4,7 +4,7 @@ License: GPL v3
 Tags: ticket,support,helpdesk,crm,responsive,chat,skype,email pipe,contact,faq
 Requires at least: 3.0
 Tested up to: 4.3.1
-Stable tag: 6.1.8
+Stable tag: 6.1.9
 
 == Description ==
 
@@ -52,6 +52,7 @@ Features :
 * Custom Status with ability to re-order, rename default Status
 * Custom Priority with ability to re-order, , rename default Priority
 * Add note for Support staff for ticket
+* Canned Reply
 
 Examples areas of use :
 
@@ -102,6 +103,19 @@ This plugin is almost plug and play! Just activate it and then go to WP Support 
 
 
 == Changelog ==
+= V 6.1.9 =
+* Two new shortcodes introduced [wp_support_plus_all_tickets] and [wp_support_plus_create_ticket] for ticket list and create ticket form respectively
+* Canned reply feature added for backend
+* Setting for Reply form position(top/bottom) added
+* Setting for Accordion view enable/disable added
+* Setting for hide selected status ticket from front end added (e.g. hide closed tickets from front-end)
+* CKEditor update version 4.5.4
+* Facebook login bug fix
+* Create ticket success email bug fix
+* Setting given to login module to replace by default WP login link
+* Shortcode page builder compatibility given (See in plugin advanced settings)
+* Some translation issues fixed
+
 = V 6.1.8 =
 * User avatar support (buddypress profile picture etc.)
 * Few bug fixes
