@@ -86,6 +86,8 @@ Translations :
 * Russian by Vladimir Kudashev
 * Traditional Chinese translation by Tiffany Lee
 * Polish by Slawek Gdak ( http://www.blog.gdaq.pl )
+* Czech by Milan Trebulák
+* Turkish by Mustafa Can KIRANLI
 
 == Installation ==
 
