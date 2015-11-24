@@ -90,7 +90,7 @@ Features :
 * Turkish by Mustafa Can KIRANLI (latest)
 
 = Pro version in exchange of translation =
-http://pradeepmakone.com/wpspdoc/2015/11/24/pro-version-in-exchange-of-translation/
+* http://pradeepmakone.com/wpspdoc/2015/11/24/pro-version-in-exchange-of-translation/
 
 == Installation ==
 
