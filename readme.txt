@@ -54,7 +54,7 @@ Features :
 * Add note for Support staff for ticket
 * Canned Reply
 
-Examples areas of use :
+= Examples areas of use : =
 
 * technical support system
 * trouble ticket system
@@ -68,13 +68,13 @@ Examples areas of use :
 * appointment request system
 * easy ticket management for large orgnization
 
-Translations :
+= Translations : =
 
 * English(default by Pradeep)
 * Dutch by Ben
 * French by X-Raym
 * Spanish by 3ways
-* Italian by elmanisero
+* Italian by elmanisero (latest)
 * Portuguese by creativeangels
 * Serbian by Cherry ( http://www.trade.in.rs/ )
 * Swedish by rickeclaesson
@@ -86,8 +86,11 @@ Translations :
 * Russian by Vladimir Kudashev
 * Traditional Chinese translation by Tiffany Lee
 * Polish by Slawek Gdak ( http://www.blog.gdaq.pl )
-* Czech by Milan Trebulák
-* Turkish by Mustafa Can KIRANLI
+* Czech by Milan Trebulák (latest)
+* Turkish by Mustafa Can KIRANLI (latest)
+
+= Pro version in exchange of translation =
+http://pradeepmakone.com/wpspdoc/2015/11/24/pro-version-in-exchange-of-translation/
 
 == Installation ==
 
